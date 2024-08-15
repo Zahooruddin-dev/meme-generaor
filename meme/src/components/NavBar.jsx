@@ -4,7 +4,7 @@ export default function NavBar() {
 	return (
 		<header className='nav'>
 			<img src={image} className='nav-img' />
-			<h1 className='nav-title'>Meme Generator</h1>
+			<h1 className='nav-title'>Meme Maker</h1>
 			<h3 className='nav-project'>React Meme - Mizuka</h3>
 		</header>
 	);
