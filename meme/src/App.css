@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+.nav{
+  /* Header background */
+  display: flex;
+  align-items: center;
+  height: 65px;
+  background: linear-gradient(180deg, #4db8b8 1.18%, #0eefff 100%);
+  color: white;
+  padding: 20px;
+}
+
+
+
+.nav-logo{
+  /* Logo */
+
+position: absolute;
+width: 178.79px;
+height: 26.22px;
+left: 29px;
+top: -0.25rem;
+
+
+}
+.nav-img{
+  /* Troll Face */
+
+height: 100%;
+margin-right: 6px
+
+
+}
+.nav-title{
+  font-size: 1.25rem;
+  margin-right: auto;
+
+
+}
+.nav-project{
+  font-size: 0.75rem ;
+  font-weight: 500;
+}
+main{
+  padding: 36px;
+}
+.form{
+  display: grid;
+  grid-template: 40px 40px /1fr 1fr;
+  gap: 17px;
+}
+.form--button{
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(180deg, #4db8b8 1.18%, #0eefff 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.form-input{
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+}
