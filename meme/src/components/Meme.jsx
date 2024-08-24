@@ -1,4 +1,3 @@
-import memeData from '../memeData';
 // Must import react from import otherwise the State won't work
 import React from 'react';
 
